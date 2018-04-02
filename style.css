@@ -1,0 +1,40 @@
+/* Style sheet for first homework*/
+
+body {
+    font-family: Helvetica;
+    color: white;
+    background: #777;
+    width: 960px;
+    font-size: 18px;
+}
+
+.header {
+    width: 800px;
+    background: #ebebeb;
+    padding: 30px;
+    text-align: center;
+    position: relative;
+    left: 95px;
+    margin: 10px 30px 10px 30px;
+}
+
+.nav {
+    width: 800px;
+    background: #ebebeb;
+    padding: 30px;
+    text-align: center;
+    position: relative;
+    left: 95px;
+    margin: 0px 30px 20px 30px;
+}
+
+.aside{
+    float: right;
+    width: 300px;
+    background: #ebebeb;
+    padding: 0px 30px 30px 30px;
+    position: relative;
+   
+
+    
+}
