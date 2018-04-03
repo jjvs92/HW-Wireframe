@@ -9,7 +9,7 @@ body {
 }
 
 .header {
-    width: 800px;
+    width: 83.33%;
     background: #ebebeb;
     padding: 30px;
     text-align: center;
@@ -19,7 +19,7 @@ body {
 }
 
 .nav {
-    width: 800px;
+    width: 83.33%;
     background: #ebebeb;
     padding: 30px;
     text-align: center;
@@ -28,13 +28,62 @@ body {
     margin: 0px 30px 20px 30px;
 }
 
-.aside{
+.aside {
     float: right;
-    width: 300px;
+    width: 31.25%;
     background: #ebebeb;
-    padding: 0px 30px 30px 30px;
+    height: 280px;
+    text-align: center;
+    padding: 30px 30px 30px 15px;
     position: relative;
-   
-
-    
+    left: 25px;    
+    margin-left: 15px;
 }
+
+.section {
+    float: right;
+    width: 51.56%;
+    background:#ebebeb;
+    position: relative;
+    left: 21px;
+    text-align: center;
+    height: 280px;
+    padding: 30px 0px 30px 0px;
+}
+
+.article {
+    background: #777;
+    width: 479px;
+    position: relative;
+    top: 50px;
+    right: 8px;
+    padding-bottom: 130px;
+    padding-top: 20px;
+    z-index: 1;
+    float: right;
+}
+
+.hs {
+    background: #ebebeb;
+    width: 464px;
+    position: relative;
+    left: 7px;
+    top: 40px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+ 
+}
+#h1 {
+    position: relative;
+    z-index: 3;
+    display: inline;
+}
+
+#h2 {
+    display: inline;
+}
+
+#h3 {
+    display: inline;
+}
+
