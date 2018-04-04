@@ -2,7 +2,7 @@
 
 body {
     font-family: Helvetica;
-    color: white;
+    color: #777;
     background: #777;
     width: 960px;
     font-size: 18px;
@@ -34,7 +34,7 @@ body {
     background: #ebebeb;
     height: 280px;
     text-align: center;
-    padding: 30px 30px 30px 15px;
+    padding: 30px 30px 50px 15px;
     position: relative;
     left: 25px;    
     margin-left: 15px;
@@ -48,16 +48,18 @@ body {
     left: 21px;
     text-align: center;
     height: 280px;
-    padding: 30px 0px 30px 0px;
+    padding: 30px 0px 50px 0px;
+    margin-bottom: 20px;
 }
 
 .article {
+    color: #ebebeb;
     background: #777;
     width: 479px;
     position: relative;
     top: 50px;
     right: 8px;
-    padding-bottom: 130px;
+    padding-bottom: 60px;
     padding-top: 20px;
     z-index: 1;
     float: right;
@@ -65,12 +67,13 @@ body {
 
 .hs {
     background: #ebebeb;
-    width: 464px;
+    width: 440px;
     position: relative;
-    left: 7px;
-    top: 40px;
+    left: 18px;
+    top: 30px;
     padding-top: 15px;
     padding-bottom: 15px;
+    color: #777;
  
 }
 #h1 {
@@ -87,3 +90,24 @@ body {
     display: inline;
 }
 
+.p {
+    color: #777;
+    position: relative;
+    top: 40px;
+    left: 18px;
+    width: 440px;
+    background: #ebebeb;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.footer {
+    width: 83.33%;
+    background:#ebebeb;
+    clear: both;
+    position: relative;
+    left: 125px;
+    text-align: center;
+    padding: 30px;
+
+}
